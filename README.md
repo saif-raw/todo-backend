@@ -10,8 +10,9 @@
 
 ### Prerequisites
 
-Clone using : https://github.com/saif-raw/todo-backend.git
-Runs on PORT : 3000 by default. Change port from config.env
+1) Clone using : https://github.com/saif-raw/todo-backend.git
+2) Runs on PORT : 3000 by default. Change port from config.env
+ - NOTE : use `killall node` in the terminal to close all ports
 
 `npm install` 
 
