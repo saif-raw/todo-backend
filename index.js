@@ -50,6 +50,14 @@ app.post('/', async (req, res) => {
     }
 });
 
+//READ by ID
+app.get('/:id', async (req, res) => {
+    try {
+        res.send(await TodoTask.findOne({taskId : req.params.id}));
+    } catch (err) {
+        res.send(`Task does not exist ${err}`);
+    }
+});
 
 
 //UPDATE
