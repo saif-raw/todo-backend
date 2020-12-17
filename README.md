@@ -25,9 +25,9 @@
 ### Usage
 
 - Create new tasks : http://localhost:3000/
-- Read all tasks / by ID : http://localhost:3000/<taskId>
-- Update task : http://localhost:3000/update/<taskId>
-- Delete tasks : http://localhost:3000/delete/<taskID>
+- Read all tasks / by ID : http://localhost:3000/*taskId*
+- Update task : http://localhost:3000/update/*taskId*
+- Delete tasks : http://localhost:3000/delete/*taskID*
 
 
 ###### ---------------------------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX--------------------------------------------------
