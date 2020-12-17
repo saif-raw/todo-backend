@@ -1,10 +1,10 @@
 {
-  "name": "todo-auth",
+  "name": "todo-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "index.js"
   },
   "keywords": [],
   "author": "",
